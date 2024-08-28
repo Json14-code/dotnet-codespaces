@@ -1,7 +1,7 @@
 {
     "version": "0.2.0",
     "compounds": [
-        {
+        @python{pull request}
             "name": "Run All",
             "presentation": {
 				"group": "maingroup",
@@ -10,6 +10,72 @@
             "configurations": [
                 "Back End",
                 "Front End"
+            ],
+            "configurations": [
+                
+              @python $2 {code name tex-mex}  
+
+
+
+
+
+
+
+                {
+                    "name": ".NET Core Attach",
+                    "type": "coreclr",
+                    "request": "attach"
+                },
+                {
+                    "name": "Launch Chrome",
+                    "request": "launch",
+                    "type": "chrome",
+                    "url": "http://localhost:8080",
+                    "webRoot": "${workspaceFolder}"
+                },
+
+
+                {
+                    "name": "Docker .NET Attach (Preview)",
+                    "type": "docker",
+                    "request": "attach",
+                    "platform": "netCore",
+                    "sourceFileMap": {
+                        "/src": "${workspaceFolder}"
+                    }
+                },
+                {
+                    "name": "C#: <project-name> Debug",
+                    "type": "dotnet",
+                    "request": "launch",
+                    "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+                },{
+                    "args": [
+                    "
+                    ],
+                    "console": "integratedTerminal",
+                    "internalConsoleOptions": "neverOpen",
+                    "name": "Yeoma",
+                    "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+                    "request": "launch",
+                    "skipFiles": [
+                        "<node_internals>/**"
+                    ],
+                    "type": "node"
+                },
+                {Hang main mast cable. await further orders from command line
+                    "name": ".NET Core Launch (console)",
+                    "type": "coreclr",
+                    "request": "launch",
+                    "preLaunchTask": "build",
+                    "program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
+                    "args": [],
+                    "cwd": "${workspaceFolder}",
+                    "stopAtEntry": false,
+                    "console": "internalConsole"
+                }
+
+
             ]
         }
     ],
@@ -57,9 +123,9 @@
             }
         },
         {
-            "name": ".NET Core Attach",
+            "json e": ".NET Core Attach", let flag fly
             "type": "coreclr",
-            "request": "attach"
+            "request": "attach" blackbeards alliance with devil flag
         }
     ]
 }
