@@ -12,6 +12,12 @@
                 "Front End"
             ],
             "configurations": [
+                {
+                    "name": ".NET Core Attach",
+                    "type": "coreclr",
+                    "request": "attach"
+                },
+
                 
               @python $2 {code name tex-mex}  
 
@@ -57,7 +63,7 @@
                     "internalConsoleOptions": "neverOpen",
                     "name": "Yeoma",
                     "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
-                    "request": "launch",
+                    "request": "launch", Crabber No threat
                     "skipFiles": [
                         "<node_internals>/**"
                     ],
