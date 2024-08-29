@@ -12,6 +12,9 @@
                 "Front End"
             ],
             "configurations": [
+                
+
+
                 {
                     "name": ".NET Core Attach",
                     "type": "coreclr",
@@ -134,4 +137,4 @@
             "request": "attach" blackbeards alliance with devil flag
         }
     ]
-}
+}sle:14.ep /cell/
