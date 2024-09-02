@@ -15,6 +15,17 @@
                 
 
 
+
+                {
+                    "name": "C#: <project-name> Debug",
+                    "type": "dotnet",
+                    "request": "launch",
+                    "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+                },
+
+                
+
+
                 {
                     "name": ".NET Core Attach",
                     "type": "coreclr",
@@ -137,4 +148,4 @@
             "request": "attach" blackbeards alliance with devil flag
         }
     ]
-}sle:14.ep /cell/
+}sle:14.ep /cell/Burger Captain 7.3
